@@ -1,0 +1,109 @@
+body {
+  color      : #333333;
+  font-family: "Lucida Sans Unicode",
+               "Lucida Grande",
+               sans-serif;
+}
+.rotate{
+  transform: rotateY(180deg); 
+}
+.sacola {
+  background   : url(../../img/sacola.png) no-repeat top right;
+  font-size    : 14px;
+  padding-right: 35px;
+  text-align   : left;
+  width        : 140px;
+  padding-top  : 8px;
+  position     : absolute;
+  top          : 60px;
+  right        : 0;
+  /*border : 1px solid red; */
+  
+}
+
+.menu-opcoes ul {
+  font-size : 15px;
+}
+
+.menu-opcoes a {
+  color : #0000FF;
+}
+
+.menu-opcoes ul li {
+  display     : inline;
+  margin-left : 20px;
+}
+
+.menu-opcoes {
+  position : absolute;
+  top  : 0;
+  right    : 0;
+  /*border : 1px solid red; */
+}
+
+.container {
+  width  : 940px;
+  /*Quando usamos apenas 2 valores para a margem,
+    o primeiro se refere a topo e fundo (top, bottom)
+    e o segundo valor refere-se a esquerda e direita (left, right)*/
+  margin : 0 auto;
+  /*border : 1px solid red; */
+}
+
+header {
+  position : relative;
+}
+.busca,
+.menu-departamentos {
+
+  background-color : #dcdcdc;
+  font-weight : bold;
+  text-transform : uppercase;
+  margin-right : 10px;
+  width : 230px;
+  transform: rotateY(180deg)
+}
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+  margin: 10px;
+}
+
+.menu-departamentos li {
+
+  background-color : white;
+  margin-bottom    : 1px;
+  padding          : 5px 10px;
+}
+
+.menu-departamentos a {
+
+  color : #333333;
+  text-decoration : none;
+}
+
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type=search] {
+  width: 170px;
+}
+
+.busca, .menu-departamentos {
+  float: left;
+}
+
+.menu-departamentos {
+  clear: left;
+}
+
+.destaque {
+  margin-top: 10px;
+}
+
+.menu-departamentos {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
